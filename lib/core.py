@@ -3,7 +3,6 @@ import random
 import string
 import time
 import configparser
-from threading import Thread
 
 config = configparser.ConfigParser()
 config.read('config.ini')
