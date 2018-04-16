@@ -31,7 +31,7 @@ ef createFile():
             dummyFile.write(''.join(random.sample(string.ascii_letters + string.digits, random.randint(20, 40))))
 ```
 ## Contributing
-* clone this repo to your local (`git clone https://github.com/user3301/ssml-builder.git`)
+* clone this repo to your local (`https://github.com/user3301/DummyFileGenerator.git`)
 * Create your own branch (`git checkout -b my-new-branch`)
 * Commit changes (`git commit -am ":sparkles:my feature"`)
 * Push (`git push origin my-new-branch`)
