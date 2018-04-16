@@ -33,7 +33,7 @@ ef createFile():
 ## Contributing
 * clone this repo to your local (`https://github.com/user3301/DummyFileGenerator.git`)
 * Create your own branch (`git checkout -b my-new-branch`)
-* Commit changes (`git commit -am ":sparkles:my feature"`)
+* Commit changes (`git commit -am :sparkles:my feature`)
 * Push (`git push origin my-new-branch`)
 * Pull request
 
