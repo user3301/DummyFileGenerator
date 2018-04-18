@@ -30,4 +30,4 @@ def createFile():
 # generate non-repeat file name
 def generateFileName():
     localtime = time.strftime("%Y%m%d%H%M%S", time.localtime())
-    return 'dummy_file_%(filename)s.%(filetype)s' % {"filename": localtime, "filetype": fileType}
+    return 'PORN_VIDEO_%(filename)s.%(filetype)s' % {"filename": localtime, "filetype": fileType}
