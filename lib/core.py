@@ -20,11 +20,12 @@ def createDirectory(output_dir):
 
 # create a file in specified directory
 def createFile():
+    createDirectory(outputDir)
     for i in range(numberOfFiles):
         with open(os.path.join(outputDir, generateFileName()), 'w+') as dummyFile:
             dummyFile.write(''.join(random.sample(string.ascii_letters + string.digits, random.randint(20, 40))))
             dummyFile.close()
-            time.sleep(3)
+            time.sleep(1)
 
 # generate non-repeat file name
 def generateFileName():
